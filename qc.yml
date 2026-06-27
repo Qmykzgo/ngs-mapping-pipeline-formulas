@@ -1,0 +1,13 @@
+name: qc
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - fastqc=0.12.1
+  - multiqc=1.25
+  - qualimap=2.3
+  - rseqc=5.0.3
+  - ucsc-gtftogenepred
+  - ucsc-genepredtobed

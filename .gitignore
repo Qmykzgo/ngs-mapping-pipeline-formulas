@@ -1,0 +1,15 @@
+# Результаты пайплайна (создаются при запуске)
+results/
+data/
+
+# Conda-окружения (создаются через conda env create)
+*.conda/
+
+# Windows alternate data streams (Zone.Identifier и т.п.)
+*:Zone.Identifier
+*Zone.Identifier
+
+# IDE / OS мусор
+.DS_Store
+Thumbs.db
+*.swp
